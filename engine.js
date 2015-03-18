@@ -16,14 +16,6 @@ This engine was originally created by Ethan Cochran (aka emcpwns on Github)
 This engine utilizes Chance.Js which is available for use under an MIT License.
 */
 
-//Initialize Chance.JS using Random.Org's true random number generator
-var mySeed;
-$.get("https://www.random.org/integers/", {num: "1", col: "1", min: "1", max: "1000000000", base: "10", format: "plain", rnd: "new"}, function(randNum) {
-  mySeed = randNum;
-  var my_seeded_chance = new Chance(mySeed);
-  console.log(my_seeded_chance.natural());
-});
-
 // Create variables
 var uName;  //User's character name
 var uAge;   //User's character age
