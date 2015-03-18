@@ -26,3 +26,11 @@ front-end web frameworks. Overall RPG-Chat is primarily learning experience for 
 * More fantasy-styled name generation
 * Gender selection
 * Themes (Fantasy, Sci-Fi, Post-apocalyptic, etc.)
+
+## Realease Notes
+###### v0.1.3
+Swtiched over to variable based scenario generation. This is necessary for future updates like cookie support and chat names. The way the engine displays content
+was also switched from document.write statements to innerHTML editing. This alows any changing content to not overwrite the entire page.
+###### v0.1.0
+Initial release. Content is generated using Chance.Js. Scenario generation prints directely to screen using a series of document.write statements.
+

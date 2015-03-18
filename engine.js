@@ -35,7 +35,6 @@ uClass = chance.pick(['Mage', 'Ranger', 'Knight', 'Warrior', 'Bandit', 'Noble', 
 // Display content (10ms delay to avoid undefined variables.)
 setTimeout(function(){
   obj.innerHTML = 'Your name is ' + uName + ' and you are a ' + uAge + ' year old ' + uRace + ' ' + uClass + ' .';
-  alert('Your name is ' + uName + ' and you are a ' + uAge + ' year old ' + uRace + ' ' + uClass + ' .');
 }, 10);
 
 
