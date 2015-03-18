@@ -10,7 +10,7 @@ for menus, footers, etc.), but that was the extent of what I knew.
 I wound up going with a mostly JavaScript approach to RPG-Chat since it's client sided and already I had more exposure to it then I realized due to my work with 
 front-end web frameworks. Overall RPG-Chat is primarily learning experience for me, but hopefully it's one that will bring others entertainment.
 
-## Planned Updates 
+## Planned Updates:  
 ###### These are updates that are planned to be implemented in the current version of RPG-Chat  
 
 * CSS Styling
@@ -19,7 +19,7 @@ front-end web frameworks. Overall RPG-Chat is primarily learning experience for 
 * More races
 * Cookie support
 
-## Future Updates
+## Future Updates:
 ###### These are updates that might be added in future versions of RPG-Chat
 
 * Random events
