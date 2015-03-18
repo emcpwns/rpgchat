@@ -49,10 +49,9 @@ var uClass; //User's character class
 function checkCookie() {
     var hasCookie = getCookie("ID");
     if (hasCookie != "") {
-        alert("Welcome back!");
-        loadCookie()
+        loadCookie();
     } else {
-          generate()
+          generate();
     }
 };
 
