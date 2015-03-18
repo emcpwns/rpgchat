@@ -33,4 +33,8 @@ setTimeout(function(){
   obj.innerHTML = 'Your name is ' + uName + ' and you are a ' + uAge + ' year old ' + uRace + ' ' + uClass + ' .';
 }, 10);
 
-
+// Display ID
+setTimeout(function(){
+  var identifier = getCookie("ID");
+  document.getElementById("identifier").innerHTML = identifier;
+}, 5000);

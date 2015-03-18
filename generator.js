@@ -37,3 +37,8 @@ function generate() {
   uClass = chance.pick(['Mage', 'Ranger', 'Knight', 'Warrior', 'Bandit', 'Noble', 'Archer']);
   setCookie("Class", uClass, 365);
 };
+
+function regen() {
+  setCookie("ID", "", 1);
+  location.reload(true);
+};

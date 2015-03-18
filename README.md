@@ -28,6 +28,8 @@ front-end web frameworks. Overall RPG-Chat is primarily learning experience for 
 * Themes (Fantasy, Sci-Fi, Post-apocalyptic, etc.)
 
 ## Release Notes
+###### v0.2.1
+Added feature to delete ID cookie to allow returning users to generate a new scenario.
 ###### v0.2.0
 Cookie support improved. Game engine was seperated into 3 files: Engine (Fires all functions and displays content), Generator (Generates new scenarios and saves them to 
 cookies), and Functions (Contains all custom functions).
