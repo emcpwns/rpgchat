@@ -16,21 +16,37 @@ This engine utilizes Chance.Js which is available for use under an MIT License.
 Engine Version: v0.1.4
 */
 
-// Create variables
-var uName;  //User's character name
-var uAge;   //User's character age
-var uRace;  //User's character race
-var uClass; //User's character class
+// Cookies
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + "; " + expires;
+};
 
-// Load or Generate Data (No JavaScript runs until this functions fires)
-checkCookie();
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+    }
+    return "";
+};
 
-// Access Engine Div (Declaring this var will avoid lag when displaying lots of content)
-var obj = document.getElementById("engine");
+function checkCookie() {
+    var hasCookie = getCookie("ID");
+    if (hasCookie != "") {
+        loadCookie();
+    } else {
+          generate();
+    }
+};
 
-// Display content (10ms delay to avoid undefined variables.)
-setTimeout(function(){
-  obj.innerHTML = 'Your name is ' + uName + ' and you are a ' + uAge + ' year old ' + uRace + ' ' + uClass + ' .';
-}, 10);
-
-
+function loadCookie() {
+  uName = getCookie("Name");
+  uAge = getCookie("Age");
+  uRace = getCookie("Race");
+  uClass = getCookie("Class");
+};

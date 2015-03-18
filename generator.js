@@ -16,21 +16,24 @@ This engine utilizes Chance.Js which is available for use under an MIT License.
 Engine Version: v0.1.4
 */
 
-// Create variables
-var uName;  //User's character name
-var uAge;   //User's character age
-var uRace;  //User's character race
-var uClass; //User's character class
+function generate() {
 
-// Load or Generate Data (No JavaScript runs until this functions fires)
-checkCookie();
+  // Identifier Cookie
+  setCookie("ID", chance.string({length: 32, pool: 'abcdef1234567890'}), 365);
 
-// Access Engine Div (Declaring this var will avoid lag when displaying lots of content)
-var obj = document.getElementById("engine");
+  // Character Name
+  uName = chance.name({ prefix: false });
+  setCookie("Name", uName, 365);
 
-// Display content (10ms delay to avoid undefined variables.)
-setTimeout(function(){
-  obj.innerHTML = 'Your name is ' + uName + ' and you are a ' + uAge + ' year old ' + uRace + ' ' + uClass + ' .';
-}, 10);
+  // Character Age
+  uAge = chance.age({type: 'adult'});
+  setCookie("Age", uAge, 365);
 
+  // Character Race
+  uRace = chance.weighted(['Human', 'Elf', 'Orc', 'Goblin', 'Imp', 'Nymph', 'Demon', 'Satyr', 'Gnome', 'Troll'], [10, 3, 2, 1, 1, 1, 1, 3, 2, 1]);
+  setCookie("Race", uRace, 365);
 
+  // Character Race
+  uClass = chance.pick(['Mage', 'Ranger', 'Knight', 'Warrior', 'Bandit', 'Noble', 'Archer']);
+  setCookie("Class", uClass, 365);
+};
