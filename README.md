@@ -11,3 +11,4 @@ RPG-Chat is a chat room in which users are given a role/character and have to ro
 * (Maybe) More fantasy-styled name generation
 * (Maybe) Gender selection
 * (Maybe) Option to save scenario in cookies
+* (Maybe) Option to select themed scenario ex: Fantasy, Sci-Fi, Post-Apocalyptic, etc.
