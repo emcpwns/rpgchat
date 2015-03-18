@@ -14,7 +14,11 @@
 
 This engine was originally created by Ethan Cochran (aka emcpwns on Github)
 This engine utilizes Chance.Js which is available for use under an MIT License.
+Engine Version: v0.1.3
 */
+
+// Access Engine Div (Declaring this var will avoid lag when displaying lots of content)
+var obj = document.getElementById("engine");
 
 // Create variables
 var uName;  //User's character name
@@ -28,10 +32,10 @@ uAge = chance.age({type: 'adult'});
 uRace = chance.weighted(['Human', 'Elf', 'Orc', 'Goblin', 'Imp', 'Nymph', 'Demon', 'Satyr', 'Gnome', 'Troll'], [10, 3, 2, 1, 1, 1, 1, 3, 2, 1]);
 uClass = chance.pick(['Mage', 'Ranger', 'Knight', 'Warrior', 'Bandit', 'Noble', 'Archer']);
 
-// Display content
-window.onload = function()
-{
-  document.getElementById("engine").innerHTML = 'Your name is ' + uName + ' and you are a ' + uAge + ' year old ' + uRace + ' ' + uClass + ' .';
-};
+// Display content (10ms delay to avoid undefined variables.)
+setTimeout(function(){
+  obj.innerHTML = 'Your name is ' + uName + ' and you are a ' + uAge + ' year old ' + uRace + ' ' + uClass + ' .';
+  alert('Your name is ' + uName + ' and you are a ' + uAge + ' year old ' + uRace + ' ' + uClass + ' .');
+}, 10);
 
 
