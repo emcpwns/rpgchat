@@ -3,7 +3,7 @@ RPG-Chat is a chat room in which users are given a role/character and have to ro
 
 ## Coming soon:
 
-* CSS Styling
+* CSS Styling (Might use framework)
 * Chat function (duh)
 * More in depth scenario
 * More races
