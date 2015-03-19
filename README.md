@@ -17,10 +17,8 @@ front-end web frameworks. Overall RPG-Chat is primarily learning experience for 
 
 * Encrypted & Condensed cookies
 * CSS Styling
-* Chat function (duh)
-* Generator Update
-* * Initial story
-* * More races
+* Chat function (This will have to be a late update because it can't be run on gh-pages)
+* Generator Update (Generate an initial story and add more races/classes)
 
 ## Future Updates
 ###### These are updates that might be added in future versions of RPG-Chat. These aren't in any specific order.
