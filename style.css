@@ -11,3 +11,7 @@ html, body {
   width: 500px;
   font-size: 0.4em;
 }
+
+#del-text{
+  color: #0099FF;
+}
