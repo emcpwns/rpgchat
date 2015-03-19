@@ -37,4 +37,4 @@ setTimeout(function(){
 setTimeout(function(){
   var identifier = getCookie("ID");
   document.getElementById("identifier").innerHTML = identifier;
-}, 5000);
+}, 1000);
