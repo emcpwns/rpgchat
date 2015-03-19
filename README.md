@@ -39,5 +39,6 @@ Added cookie support.
 Swtiched over to variable based scenario generation. This is necessary for future updates like cookie support and chat names. The way the engine displays content
 was also switched from document.write statements to innerHTML editing. This alows any changing content to not overwrite the entire page.
 ###### v0.1.0
-Initial release. Content is generated using Chance.Js. Scenario generation prints directely to screen using a series of document.write statements.
+Initial release. Content is generated using Chance.Js. Scenario generation prints directely to screen using a series of document.write statements.  
 
+*Since this is a 100% client-sided web-based project, the master branch and gh-pages branch are identicle*
