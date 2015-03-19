@@ -29,16 +29,5 @@ front-end web frameworks. Overall RPG-Chat is primarily learning experience for 
 * Gender selection
 * Themes (Fantasy, Sci-Fi, Post-apocalyptic, etc.)
 
-## Release Notes
-###### v0.2.1
-Added feature to delete ID cookie to allow returning users to generate a new scenario.
-###### v0.2.0
-Cookie support improved. Game engine was seperated into 3 files: Engine (Fires all functions and displays content), Generator (Generates new scenarios and saves them to 
-cookies), and Functions (Contains all custom functions).
-###### v0.1.4
-Added cookie support.
-###### v0.1.3
-Swtiched over to variable based scenario generation. This is necessary for future updates like cookie support and chat names. The way the engine displays content
-was also switched from document.write statements to innerHTML editing. This alows any changing content to not overwrite the entire page.
-###### v0.1.0
-Initial release. Content is generated using Chance.Js. Scenario generation prints directely to screen using a series of document.write statements.  
+## ~~Release Notes~~
+**Removed**  *(Release notes can be found [here](https://github.com/emcpwns/rpgchat/releases) on the releases page from now on)*
