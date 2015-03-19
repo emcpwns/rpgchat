@@ -18,8 +18,9 @@ front-end web frameworks. Overall RPG-Chat is primarily learning experience for 
 * Encrypted & Condensed cookies
 * CSS Styling
 * Chat function (duh)
-* More in depth scenario
-* More races
+* Generator Update
+* * Initial story
+* * More races
 
 ## Future Updates
 ###### These are updates that might be added in future versions of RPG-Chat. These aren't in any specific order.
