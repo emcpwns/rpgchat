@@ -41,6 +41,4 @@ was also switched from document.write statements to innerHTML editing. This alow
 ###### v0.1.0
 Initial release. Content is generated using Chance.Js. Scenario generation prints directely to screen using a series of document.write statements.  
   
-  
-  
-*Since this is a 100% client-sided web-based project, the master branch and gh-pages branch are identicle*
+> *Since this is a 100% client-sided web-based project, the master branch and gh-pages branch are identicle*
