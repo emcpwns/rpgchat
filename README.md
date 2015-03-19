@@ -11,16 +11,16 @@ I wound up going with a mostly JavaScript approach to RPG-Chat since it's client
 front-end web frameworks. Overall RPG-Chat is primarily learning experience for me, but hopefully it's one that will bring others entertainment.
 
 ## Planned Updates 
-###### These are updates that are planned to be implemented in the current version of RPG-Chat  
+###### These are updates that are planned to be implemented in the current version of RPG-Chat. They are listed in the order I plan to do them.
 
+* Encrypted & Condensed cookies
 * CSS Styling
 * Chat function (duh)
 * More in depth scenario
 * More races
-* ~~Cookie support~~ Done.
 
 ## Future Updates
-###### These are updates that might be added in future versions of RPG-Chat
+###### These are updates that might be added in future versions of RPG-Chat. These aren't in any specific order.
 
 * Random events
 * More fantasy-styled name generation
