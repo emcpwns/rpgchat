@@ -1,5 +1,7 @@
 # [RPG-Chat](http://ethanc.ga/rpgchat/)
 RPG-Chat is a chat room in which users are given a role/character and have to roleplay based on their character and the basic story-line provided. Idea by [/u/Jethropolis](http://www.reddit.com/r/ideas/comments/2ywnj1/roleplaying_chatroom_idea/ "Original Reddit Post").
+  
+> *Since this is a 100% client-sided web-based project, the master branch and gh-pages branch are identicle*
 
 ## About
 
@@ -40,5 +42,3 @@ Swtiched over to variable based scenario generation. This is necessary for futur
 was also switched from document.write statements to innerHTML editing. This alows any changing content to not overwrite the entire page.
 ###### v0.1.0
 Initial release. Content is generated using Chance.Js. Scenario generation prints directely to screen using a series of document.write statements.  
-  
-> *Since this is a 100% client-sided web-based project, the master branch and gh-pages branch are identicle*
