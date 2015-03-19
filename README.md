@@ -29,5 +29,5 @@ front-end web frameworks. Overall RPG-Chat is primarily learning experience for 
 * Gender selection
 * Themes (Fantasy, Sci-Fi, Post-apocalyptic, etc.)
 
-## ~~Release Notes~~ (Release notes can be found [here](https://github.com/emcpwns/rpgchat/releases) on the releases page from now on)
-**Removed**
+## ~~Release Notes~~
+**Removed**  *(Release notes can be found [here](https://github.com/emcpwns/rpgchat/releases) on the releases page from now on)*
